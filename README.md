@@ -1,6 +1,7 @@
-# Getting Started with Create React App
+# Quotes App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+[Live Preview](https://react-5762f.web.app/quotes)
 
 ## Available Scripts
 
