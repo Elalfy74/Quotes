@@ -6,7 +6,7 @@ const Header = () => {
   return (
     <header className={classes.header}>
       <Link className={classes.logo} to="/quotes">
-        <h2>React Router</h2>
+        <h2>Quotes App</h2>
       </Link>
       <nav className={classes.nav}>
         <ul>

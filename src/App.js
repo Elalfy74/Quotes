@@ -1,13 +1,8 @@
 import React, { Suspense } from "react";
 import { Route, Routes, Navigate } from "react-router-dom";
 
-// import AllQuotes from "./pages/AllQuotes";
-// import NewQuote from "./pages/NewQuote";
-// import QuotesDetail from "./pages/QuotesDetail";
 import Layout from "./components/layout/Layout";
 import Modal from "./components/UI/Modal";
-// import NotFound from "./pages/NotFound";
-
 const AllQuotes = React.lazy(() => import("./pages/AllQuotes"));
 const NewQuote = React.lazy(() => import("./pages/NewQuote"));
 const QuotesDetail = React.lazy(() => import("./pages/QuotesDetail"));
